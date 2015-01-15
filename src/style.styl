@@ -1,0 +1,111 @@
+@import 'colors.styl'
+
+html *
+  font-family 'Open Sans', sans-serif;
+  color 3darkTxt3
+ul
+  list-style none
+
+.container
+  width 960px
+
+.username
+  &
+    margin-top 40px
+    text-align center
+  &__logo
+    &
+      background #FF0042
+      display block
+      margin auto
+      width 100px
+      height 100px
+      border-radius 50%
+      padding-top 12px
+    &--container
+      border-radius 50%
+      display block
+      width 116px
+      height 116px
+      margin auto
+      display block
+      background white
+      border solid 4px #FF0042
+      padding-top 4px
+    .fa
+      color white
+  &__title
+    color #FF0042
+    font-size 3em
+    margin-bottom 0px
+  &__subtitle
+    font-weight 300
+    font-size 1.6em
+
+.menu
+  &
+    margin 40px auto
+  &__ul
+    background-color lightBck
+    border-radius 6px
+    padding 6px
+    text-align center
+    width 100%
+  &__li
+    display inline
+    margin 0px 20px
+  &__a
+    color darkTxt
+    font-size 1.4em
+.portfolio
+  &__ul
+    list-style none
+  .item
+    &
+      border-bottom solid 2px lightBck
+      display flex
+      padding 60px 0px
+    &__thumb,
+    &__desc
+      display inline-block
+    &__desc
+      vertical-align top
+    &__img
+      border-radius 6px
+      width 120px
+      height 120px
+    &__img--btc
+      border solid 2px #F7941D
+    &__img--strassen
+      border solid 2px #7f8c8d
+    &__title
+      margin 4px 0px
+      font-size 1.4em
+    &__content
+      margin 0px
+      font-size 1.4em
+      font-weight 300
+    .tags
+      &__ul
+        display flex
+        margin-left 0px
+        margin-top 10px
+        padding-left 0px
+      &__date
+        &
+          color lightTxt
+          border-right solid 1px lightTxt
+          margin 0px 6px 0px 0px
+          padding 4px 8px 4px 0px
+        .fa
+          margin-right 6px
+      &__tag
+        display inline
+        margin 0px 6px
+        padding 4px 8px
+        border solid 1px lightTxt
+        color lightTxt
+        border-radius 12px
+      &__tag:first-child
+        margin-left 0
+
