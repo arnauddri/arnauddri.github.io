@@ -1,3 +1,0 @@
-/* global angular, _ */
-;(function() {
-})();
