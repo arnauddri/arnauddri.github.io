@@ -110,13 +110,24 @@ body {
   padding-bottom: 40px;
 }
 
+#deplacement {
+  padding-bottom: 40px;
+}
+#deplacement .description {
+  text-align:  left;
+}
+
 #deplacement h2 {
   margin-top: 40px;
 }
 
 #deplacement p, 
-#deplacement li {
+#deplacement li, 
+#deplacement b {
   text-align:  left;
+} 
+#deplacement b {
+  font-size:  1.25rem;
 } 
 
 #logement p, 
