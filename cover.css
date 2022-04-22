@@ -47,6 +47,10 @@ body {
  * Header
  */
 
+.nav {
+  margin-right: 60px;
+}
+
 .nav-masthead .nav-link {
   padding: .25rem 0;
   color: #070B2C;
@@ -152,4 +156,15 @@ body {
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+#liste {
+  padding-top:  80px;
+  padding-bottom:  80px;
+  background:  rgba(236, 240, 241,0.4);
+}
+
+#liste a {
+  text-decoration: none;
+  color:  #070B2C;
 }
